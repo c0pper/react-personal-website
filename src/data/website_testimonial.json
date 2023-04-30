@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Suzie Hayes Fisher",
+        "institution": {
+            "id": 7,
+            "name": "Brighton Language College",
+            "url": "https://www.brightonlc.co.uk"
+        },
+        "pic": "../assets/testimonials/suzie.jpg",
+        "role": "Brighton Language College HR",
+        "text": "Simone has been a dedicated & hard-working team member. He managed to work well under pressure, treating all customers and staff members in a polite & professional manner, and was able to work on his own initiative completing all his tasks with efficiency and excellence. He has been an absolute pleasure to work with and will be sorely missed by all of his BLC team members."
+    },
+    {
+        "id": 2,
+        "name": "Nathan Price",
+        "institution": {
+            "id": 6,
+            "name": "St. Giles Juniors",
+            "url": "https://www.stgiles-international.com"
+        },
+        "pic": "../assets/testimonials/nathan.jpg",
+        "role": "St Giles Centre Manager",
+        "text": "Simone is a hard-working, conscientious and creative person. His photoshop skills helped us make the notice board more memorable for the students and he had some good ideas on how to improve the information flow between staff members and students. It was a pleasure to work with Simone and we really hope to see him next year. Simone is a hard-working, conscientious and creative person. His photoshop skills helped us make the notice board more memorable for the students and he had some good ideas on how to improve the information flow between staff members and students. It was a pleasure to work with Simone and we really hope to see him next year."
+    },
+    {
+        "id": 3,
+        "name": "Vincenzo Masucci",
+        "institution": {
+            "id": 2,
+            "name": "Expert.AI",
+            "url": "https://www.expert.ai"
+        },
+        "pic": "../assets/testimonials/vincenzo_masucci.jpeg",
+        "role": "EU Financed Projects Lead",
+        "text": "Simone is going through the training very diligently. He is very committed and gets excellent results. He shows excellent learning ability, respects processes, roles and functions, is attentive to procedures to ensure a high level of quality. He is careful in writing complex deliverables and demonstrates excellent skills in relating to other colleagues both internally within the group and from partner companies."
+    }
+]

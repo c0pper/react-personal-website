@@ -1,0 +1,92 @@
+[
+    {
+        "category": "IT",
+        "id": 4,
+        "name": "Photoshop",
+        "percent": 80
+    },
+    {
+        "category": "L",
+        "id": 5,
+        "name": "english",
+        "percent": 100
+    },
+    {
+        "category": "L",
+        "id": 6,
+        "name": "Russian",
+        "percent": 60
+    },
+    {
+        "category": "L",
+        "id": 7,
+        "name": "spanish",
+        "percent": 30
+    },
+    {
+        "category": "L",
+        "id": 8,
+        "name": "french",
+        "percent": 30
+    },
+    {
+        "category": "L",
+        "id": 9,
+        "name": "japanese",
+        "percent": 20
+    },
+    {
+        "category": "IT",
+        "id": 10,
+        "name": "html",
+        "percent": 70
+    },
+    {
+        "category": "IT",
+        "id": 11,
+        "name": "python",
+        "percent": 85
+    },
+    {
+        "category": "IT",
+        "id": 12,
+        "name": "wordpress",
+        "percent": 50
+    },
+    {
+        "category": "IT",
+        "id": 13,
+        "name": "Docker",
+        "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 14,
+        "name": "css",
+        "percent": 30
+    },
+    {
+        "category": "IT",
+        "id": 15,
+        "name": "JavaScript",
+        "percent": 20
+    },
+    {
+        "category": "IT",
+        "id": 16,
+        "name": "Git",
+        "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 17,
+        "name": "Databases",
+        "percent": 20
+    },
+    {
+        "category": "IT",
+        "id": 18,
+        "name": "OWL",
+        "percent": 40
+    }
+]

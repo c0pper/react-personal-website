@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    background-color: black;
+}
+
+.section {
+    @apply border-t-2 sm:mx-20 mx-4 mt-20;
+}
+
+.section-content {
+    @apply flex flex-col items-center;
+}
+
+.btn {
+    @apply px-3 py-1 no-underline bg-white text-black  hover:bg-black hover:text-white hover:cursor-pointer;
+}
