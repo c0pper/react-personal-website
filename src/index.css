@@ -8,14 +8,88 @@ html {
     background-color: black;
 }
 
+p {
+    @apply text-white
+}
+
 .section {
-    @apply border-t-2 sm:mx-20 mx-4 mt-20;
+    @apply sm:px-20 px-10 py-10 sm:py-20 min-h-screen w-full;
 }
 
 .section-content {
-    @apply flex flex-col items-center;
+    @apply flex flex-col items-center justify-center h-screen;
 }
 
 .btn {
     @apply px-3 py-1 no-underline bg-white text-black  hover:bg-black hover:text-white hover:cursor-pointer;
+}
+
+.light-section-bg {
+    /* @apply bg-zinc-900; */
+    @apply bg-black;
+}
+
+.dark-section-bg {
+    @apply bg-black;
+}
+
+.border-card {
+    @apply border-r-[1px] border-b-[1px] border-neutral-300;
+}
+
+.grid-gap {
+    @apply gap-10;
+}
+
+.typing-txt-wrapper {
+    display: inline-flex;
+}
+
+.typing-txt-wrapper .static-txt {
+    color: white;
+    font-size: 60px;
+}
+
+.typing-txt-wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    color: aqua;
+    list-style: none;
+    font-size: 60px;
+    position: relative;
+    top: 0;
+    animation: slide 6.5s steps(3) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -270px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 105%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid aqua;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 35px 0 35px;
+    }
 }

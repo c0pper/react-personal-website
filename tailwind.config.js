@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 export default {
   content: ["./index.html", "./src/components/*.{js,jsx,tsx,ts}", "./src/sections/*.{js,jsx,tsx,ts}"],
   mode: "jit",

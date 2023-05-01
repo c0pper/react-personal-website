@@ -4,7 +4,12 @@
         "exp_type": "E",
         "id": 1,
         "name": "MASTER'S DEGREE - TECHNICAL TRANSLATION",
-        "points": "Graduated 110/110\r\nSkills in specialized and professional texts translation\r\nAwareness of phenomena related to interaction of cultures\r\nOptimization of work through the use of IT resources",
+        "points": [
+            "Graduated 110/110",
+            "Skills in specialized and professional texts translation",
+            "Awareness of phenomena related to interaction of cultures",
+            "Optimization of work through the use of IT resources"
+        ],
         "start_time": "2017-10-01",
         "institution": {
             "id": 1,
@@ -18,7 +23,12 @@
         "exp_type": "E",
         "id": 2,
         "name": "APPLE IOS FOUNDATION PROGRAM",
-        "points": "First place in admission list\r\nDevelopment of publishable app in 1 month (Swift)\r\nDemo of the product at European Researchers' Night '19, national science fair 'Futuro Remoto' and University of Westminster (London)\r\nHoning of soft / hard skills and team working",
+        "points": [
+            "First place in admission list",
+            "Development of publishable app in 1 month (Swift)",
+            "Demo of the product at European Researchers' Night '19, national science fair 'Futuro Remoto' and University of Westminster (London)",
+            "Honing of soft / hard skills and team working"
+        ],
         "start_time": "2018-04-22",
         "institution": {
             "id": 1,
@@ -32,7 +42,12 @@
         "exp_type": "E",
         "id": 3,
         "name": "FIT - INITIAL FORMATION/TRAINEESHIP FOR TEACHERS",
-        "points": "Anthropology\r\nPedagogy\r\nTeaching to migrants\r\nTeaching to people with special needs",
+        "points": [
+            "Anthropology",
+            "Pedagogy",
+            "Teaching to migrants",
+            "Teaching to people with special needs"
+        ],
         "start_time": "2018-02-01",
         "institution": {
             "id": 1,
@@ -46,7 +61,12 @@
         "exp_type": "E",
         "id": 4,
         "name": "BA - LINGUISTIC AND CULTURAL MEDIATION",
-        "points": "Graduated 102/110\r\nPromotion of activities related to multilingualism and interculturalism\r\nTeaching language learning techniques\r\nDigital texts localization and CAT tools",
+        "points": [
+            "Graduated 102/110",
+            "Promotion of activities related to multilingualism and interculturalism",
+            "Teaching language learning techniques",
+            "Digital texts localization and CAT tools"
+        ],
         "start_time": "2012-10-01",
         "institution": {
             "id": 1,
@@ -60,7 +80,16 @@
         "exp_type": "W",
         "id": 5,
         "name": "KNOWLEDGE ENGINEER",
-        "points": "Identification of logical patterns underlying the language\r\nDesigning, developing, and testing NLP solutions to meet customer needs and requirements\r\nEnsuring quality of NLP solutions and contributing to their improvement\r\nAnalysis of customer needs and transforming them into technical requirements\r\nFine-tuning NLP modules to balance precision and recall according to customer requirements\r\nActing as NLP partner to customers using expert.ai technology\r\nContribution to closeout phase, collecting lessons learned, and sharing best practices with project team and community members.\r\nApp mockup design and creation",
+        "points": [
+  "Identification of logical patterns underlying the language",
+  "Designing, developing, and testing NLP solutions to meet customer needs and requirements",
+  "Ensuring quality of NLP solutions and contributing to their improvement",
+  "Analysis of customer needs and transforming them into technical requirements",
+  "Fine-tuning NLP modules to balance precision and recall according to customer requirements",
+  "Acting as NLP partner to customers using expert.ai technology",
+  "Contribution to closeout phase, collecting lessons learned, and sharing best practices with project team and community members",
+  "App mockup design and creation"
+],
         "start_time": "2021-05-10",
         "institution": {
             "id": 2,
@@ -74,7 +103,11 @@
         "exp_type": "W",
         "id": 6,
         "name": "ENGLISH TEACHER",
-        "points": "Planning and delivering English lessons for kindergarten learners\r\nUtilising classroom management techniques to improve efficiency of lessons\r\nEnriching the lesson by including additional audio-visual material",
+        "points": [
+            "Planning and delivering English lessons for kindergarten learners",
+            "Utilising classroom management techniques to improve efficiency of lessons",
+            "Enriching the lesson by including additional audio-visual material"
+          ],
         "start_time": "2021-02-01",
         "institution": {
             "id": 3,
@@ -88,7 +121,10 @@
         "exp_type": "W",
         "id": 7,
         "name": "MUSIC VIDEO TECHNICAL ASSISTANT",
-        "points": "Creation of animated clips from still photos using AI techniques\r\nTechnical consultation and editing assistance",
+        "points": [
+            "Creation of animated clips from still photos using AI techniques", 
+            "Technical consultation and editing assistance"
+        ]        ,
         "start_time": "2020-10-10",
         "institution": {
             "id": 4,
@@ -102,7 +138,7 @@
         "exp_type": "W",
         "id": 8,
         "name": "FREELANCE TRANSLATOR",
-        "points": "Italian localisation of Clients app for iOS\r\nItalian localisation of N Music for Android",
+        "points": ["Italian localisation of Clients app for iOS", "Italian localisation of N Music for Android"],
         "start_time": "2019-02-01",
         "institution": {
             "id": 5,
@@ -116,7 +152,13 @@
         "exp_type": "W",
         "id": 9,
         "name": "ACTIVITY LEADER",
-        "points": "Welcoming students and orientation\r\nMonitoring welfare and discipline\r\nLeading activities and groups during excursions\r\nEncouraging engagement in social programme\r\nSupervising arrivals/departures",
+        "points": [
+            "Welcoming students and orientation",
+            "Monitoring welfare and discipline",
+            "Leading activities and groups during excursions",
+            "Encouraging engagement in social programme",
+            "Supervising arrivals/departures"
+        ],
         "start_time": "2019-07-05",
         "institution": {
             "id": 6,
@@ -130,7 +172,7 @@
         "exp_type": "W",
         "id": 10,
         "name": "ACADEMIC INTERN",
-        "points": "Teacher assistance and children supervision\r\nOrientation and groups coordination\r\nExcursions guide\r\nLesson planning\r\nAttendance keeping",
+        "points": ["Teacher assistance and children supervision", "Orientation and groups coordination", "Excursions guide", "Lesson planning", "Attendance keeping"],
         "start_time": "2018-08-04",
         "institution": {
             "id": 7,
@@ -144,7 +186,13 @@
         "exp_type": "W",
         "id": 11,
         "name": "RECEPTION DESK",
-        "points": "Issuing residence permit to non-EU citizens\r\nCultural mediation\r\nDatabase updating\r\nReception",
+        "points": [
+            "Issuing residence permit to non-EU citizens",
+            "Cultural mediation",
+            "Database updating",
+            "Reception"
+        ]
+        ,
         "start_time": "2015-11-02",
         "institution": {
             "id": 8,

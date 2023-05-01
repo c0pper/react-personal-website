@@ -9,16 +9,14 @@ import Testimonials from './sections/Testimonials'
 import styles from './style'
 
 const App = () => (
-  <div className="w-full overflow-hidden">
-    <div>
-      <TopBar />
-      <Hero />
-    <About />
-    <Skills />
-    <Resume />
-    </div>
-    <Projects />
-    <Testimonials />
+  <div className="w-full overflow-hidden relative">
+    <TopBar />
+    {/* <Hero sectionColor="dark-section-bg" /> */}
+    <About sectionColor="light-section-bg" />
+    <Skills sectionColor="dark-section-bg" />
+    <Resume sectionColor="light-section-bg" />
+    <Projects sectionColor="dark-section-bg" />
+    <Testimonials sectionColor="light-section-bg" />
     <Footer />
   </div>
 )
