@@ -8,7 +8,7 @@ COPY . .
 # ==== BUILD =====
 # Install dependencies (npm ci makes sure the exact versions in the lockfile gets installed)
 RUN npm install -g npm@8.5.0
-RUN npm ci 
+RUN npm install --silent
 # Build the app
 # RUN npm run build
 # ==== RUN =======
