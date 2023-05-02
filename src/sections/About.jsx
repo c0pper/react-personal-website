@@ -19,10 +19,15 @@ function About({sectionColor}) {
           <h1 className="flex font-bold text-4xl md:text-6xl mb-4 md:mt-0 mt-4">
             {bio.name}
           </h1>
-          <div className="flex text-transparent font-terminal font-bold text-4xl mb-4">
-            <div className="mr-2 bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text">I'm a</div>
+          <div 
+            className="flex font-terminal font-bold text-4xl mb-4" 
+            style={{
+              color: "transparent"
+            }}
+          >
+            <div className="mr-2 bg-gradient-to-r from-fuchsia-500 to-cyan-500" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}>I'm a</div>
             <div
-              className="txt-rotate bg-gradient-to-r from-cyan-500 to-fuchsia-500 bg-clip-text mr-2"
+              className="txt-rotate bg-gradient-to-r from-cyan-500 to-fuchsia-500 mr-2" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}
               data-period="2000"
               data-rotate='[ "Developer.", "Teacher.", "Translator." ]'
             />
