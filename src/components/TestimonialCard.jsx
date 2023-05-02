@@ -10,9 +10,9 @@ const Testimonial = ({testimonial}) => {
   }, [testimonial.pic]);
 
   return (
-    <div className="max-w-md py-4 px-8 mb-20 mr-20 border-card relative">
+    <div className="max-w-md py-4 px-8 mb-20 mr-4 md:mr-20 border-card relative">
       <div>
-        <p>{testimonial.text}</p>
+        <p className="sm:text-base text-sm">{testimonial.text}</p>
       </div>
       <div className="flex flex-col justify-end items-start mt-4">
         <div className="text-xl font-medium text-primary">{testimonial.name}</div>
