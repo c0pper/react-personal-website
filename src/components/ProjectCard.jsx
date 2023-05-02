@@ -13,7 +13,7 @@ const ProjectCard = ({project}) => {
         <div className="flex-col mr-24">
           <div className="flex flex-col items-start mt-4">
             <div className="text-xl font-medium text-primary">{project.name.toUpperCase()}</div>
-            <div className="text-ll font-medium text-secondary indent-border-left mt-2 mb-4">{project.date}</div>
+            <div className="text-ll font-medium text-secondary indent-border-left mt-2 mb-4">{project.date.split("-")[0]}</div>
           </div>
           <div className="mt-2 mb-4  text-primary">
               {project.desc}
