@@ -7,8 +7,12 @@ import tailwindcss from 'tailwindcss'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: '0.0.0.0',
-    port: 6300,
+   watch: {
+    usePolling: true,
+   },
+   host: true, // Here
+   strictPort: true,
+   port: 6300,
   },
   css: {
     postcss: {
