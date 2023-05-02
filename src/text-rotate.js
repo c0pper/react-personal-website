@@ -49,8 +49,8 @@ var TxtRotate = function(el, toRotate, period) {
       }
     }
     // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.6em solid #666 }";
-    document.body.appendChild(css);
+    // var css = document.createElement("style");
+    // css.type = "text/css";
+    // css.innerHTML = ".txt-rotate > .wrap { border-right: 0.6em solid #FFF; animation: blink 1s infinite; } @keyframes blink { 50% {opacity: 0;} }";
+    // document.body.appendChild(css);
   };

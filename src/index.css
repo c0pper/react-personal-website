@@ -13,16 +13,20 @@ p {
     @apply text-primary
 }
 
+h1 {
+    @apply text-primary
+}
+
 .section {
-    @apply sm:px-20 px-10 py-10 sm:py-20 min-h-screen w-full;
+    @apply sm:px-20 px-10 py-10  md:min-h-screen w-full;
 }
 
 .section-content {
-    @apply flex flex-col items-center justify-center md:h-screen;
+    @apply flex flex-col items-center justify-center;
 }
 
 .btn {
-    @apply px-3 py-1 no-underline bg-primary text-black  hover:bg-black hover:text-white hover:cursor-pointer;
+    @apply px-3 py-1 no-underline bg-primary text-black  hover:bg-black hover:text-white hover:cursor-pointer transition duration-200;
 }
 
 .light-section-bg {
@@ -35,7 +39,7 @@ p {
 }
 
 .border-card {
-    @apply border-r-[1px] border-b-[1px] border-primary;
+    @apply border-r-[1px] border-b-[1px] border-primary hover:scale-105 hover:-translate-y-1 transition duration-200 ;
 }
 
 .grid-gap {
@@ -44,4 +48,13 @@ p {
 
 .indent-border-left {
     @apply border-l-[4px] border-primary pl-4;
+}
+
+.blinking-cursor {
+    @apply border-b-2 border-white -ml-2 -mt-2;
+    animation: blink 1.5s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {opacity: 0;}
 }

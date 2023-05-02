@@ -12,7 +12,7 @@ const Testimonial = ({testimonial}) => {
   return (
     <div className="max-w-md py-4 px-8 mb-20 mr-20 border-card relative">
       <div>
-        <p className="text-primary">{testimonial.text}</p>
+        <p>{testimonial.text}</p>
       </div>
       <div className="flex flex-col justify-end items-start mt-4">
         <div className="text-xl font-medium text-primary">{testimonial.name}</div>
