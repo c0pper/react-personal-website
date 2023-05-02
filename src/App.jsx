@@ -6,7 +6,6 @@ import Skills from './sections/Skills'
 import Resume from './sections/Resume'
 import Projects from './sections/Projects'
 import Testimonials from './sections/Testimonials'
-import styles from './style'
 
 const App = () => (
   <div className="w-full overflow-hidden relative">

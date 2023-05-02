@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
 html {
-    background-color: black;
+    @apply bg-black font-ubuntu;
 }
 
 p {
-    @apply text-white
+    @apply text-primary
 }
 
 .section {
@@ -17,11 +18,11 @@ p {
 }
 
 .section-content {
-    @apply flex flex-col items-center justify-center h-screen;
+    @apply flex flex-col items-center justify-center md:h-screen;
 }
 
 .btn {
-    @apply px-3 py-1 no-underline bg-white text-black  hover:bg-black hover:text-white hover:cursor-pointer;
+    @apply px-3 py-1 no-underline bg-primary text-black  hover:bg-black hover:text-white hover:cursor-pointer;
 }
 
 .light-section-bg {
@@ -34,62 +35,13 @@ p {
 }
 
 .border-card {
-    @apply border-r-[1px] border-b-[1px] border-neutral-300;
+    @apply border-r-[1px] border-b-[1px] border-primary;
 }
 
 .grid-gap {
     @apply gap-10;
 }
 
-.typing-txt-wrapper {
-    display: inline-flex;
-}
-
-.typing-txt-wrapper .static-txt {
-    color: white;
-    font-size: 60px;
-}
-
-.typing-txt-wrapper .dynamic-txts {
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
-    overflow: hidden;
-}
-
-.dynamic-txts li {
-    color: aqua;
-    list-style: none;
-    font-size: 60px;
-    position: relative;
-    top: 0;
-    animation: slide 6.5s steps(3) infinite;
-}
-
-@keyframes slide {
-    100% {
-        top: -270px;
-    }
-}
-
-.dynamic-txts li span {
-    position: relative;
-}
-
-.dynamic-txts li span::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 105%;
-    width: 100%;
-    background: black;
-    border-left: 2px solid aqua;
-    animation: typing 1.5s steps(10) infinite;
-}
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 35px 0 35px;
-    }
+.indent-border-left {
+    @apply border-l-[4px] border-primary pl-4;
 }

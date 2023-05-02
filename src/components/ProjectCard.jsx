@@ -1,26 +1,26 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const ProjectCard = ({project}) => {
-  return (
-    // <div className="mx-5 border border-sky-500 border-s-8 border-s-yellow-600">
-    //   <h2 className="text-white">{project.name.toUpperCase()}</h2>
-    //   <h3 className="text-white">{project.date}</h3>
-    //   <h3 className="text-white">{project.desc}</h3>
-    //   <h3 className="text-white">{project.desc}</h3>
-    //   {project.categories.map((category) =>(
-    //     <h3 className="text-white">{category}</h3>
-    //   ))}
-    // </div>
+  const [imageSrc, setImageSrc] = useState('');
 
-    
-    <div className=" py-4 px-8 bg-white mt-1">
-    <div className="flex flex-col items-start mt-4">
-      <div className="text-xl font-medium text-gray-600">{project.name.toUpperCase()}</div>
-      <div className="text-ll font-medium text-gray-400">{project.date}</div>
-    </div>
-    <div className="mt-2 text-gray-600">
-        {project.desc}
-    </div>
+  useEffect(() => {
+    import(`${project.card_pic}`).then(image => setImageSrc(image.default));/* @vite-ignore */
+  }, [project.card_pic]);
+
+  return (    
+    <div className=" pl-4 mt-1 border-card mb-10 md:overflow-y-auto">
+      <div className="flex md:flex-row flex-col-reverse justify-between">
+        <div className="flex-col mr-24">
+          <div className="flex flex-col items-start mt-4">
+            <div className="text-xl font-medium text-primary">{project.name.toUpperCase()}</div>
+            <div className="text-ll font-medium text-secondary indent-border-left mt-2 mb-4">{project.date}</div>
+          </div>
+          <div className="mt-2 mb-4  text-primary">
+              {project.desc}
+          </div>
+        </div>
+        <img className="md:w-28 md:h-28 object-cover border-[1px] border-primary" src={imageSrc} />
+      </div>
     </div>
   )
 }

@@ -1,22 +1,19 @@
 import React from 'react'
 import Header from '../components/Header'
-import StickySection from '../components/StickySection'
 
 function About({sectionColor}) {
   return (
-    <StickySection>
-      <section className={`section ${sectionColor}`} id='about'>
-        <Header title="About" />
-        <div className="typing-txt-wrapper">
-          <div className="static-txt">I'm a</div>
-          <ul className="dynamic-txts">
-            <li><span>Developer</span></li>
-            <li><span>Teacher</span></li>
-            <li><span>Translator</span></li>
-          </ul>
-        </div>
-      </section>
-    </StickySection>
+    <section className={`section ${sectionColor}`} id='about'>
+      <Header title="About" />
+      <div className="flex text-primary font-terminal font-bold text-4xl">
+        <div className="mr-2 ">I'm a</div>
+        <div 
+          className="txt-rotate" 
+          data-period="2000" 
+          data-rotate='[ "Developer.", "Teacher.", "Translator." ]'
+        />
+      </div>
+    </section>
   )
 }
 
