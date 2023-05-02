@@ -69,7 +69,7 @@
         "category": "IT",
         "id": 15,
         "name": "JavaScript",
-        "percent": 20
+        "percent": 50
     },
     {
         "category": "IT",
@@ -88,5 +88,11 @@
         "id": 18,
         "name": "OWL",
         "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 19,
+        "name": "ReactJS",
+        "percent": 50
     }
 ]
