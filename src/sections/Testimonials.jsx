@@ -6,8 +6,8 @@ import SectionContent from '../components/SectionContent'
 
 function Testimonials({sectionColor}) {
   return (
-    <section className={`section ${sectionColor}`} id="testimonials">
-      <Header title="Testimonials" />
+    <section className={`section ${sectionColor}`} id="references">
+      <Header title="References" />
       <SectionContent>
         <div className="section-content">
           <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-4">
