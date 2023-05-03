@@ -10,13 +10,14 @@ function About({sectionColor}) {
 
 
   return (
-    <section className={`section ${sectionColor}`} id='about'>
+    <section className={`section ${sectionColor} md:min-h-screen flex`} id='about'>
       <div className="flex flex-col md:items-center md:flex-row-reverse justify-between">
-        <div className="w-full" id="portrait">
+        <div  id="portrait">
           <img src={imageSrc} className="object-fit" />
         </div>
-        <div id="text">
-          <h1 className="flex font-bold text-4xl md:text-6xl mb-4 md:mt-0 mt-4">
+        
+        <div id="text" className="md:w-3/6">
+          <h1 className="flex font-bold text-4xl md:text-6xl mb-4 md:mt-0 mt-4 font-unicaone">
             {bio.name}
           </h1>
           <div 

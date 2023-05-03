@@ -1,15 +1,45 @@
 [
     {
-        "category": "IT",
-        "id": 4,
-        "name": "Photoshop",
-        "percent": 80
-    },
-    {
         "category": "L",
         "id": 5,
         "name": "english",
         "percent": 100
+    },
+    {
+        "category": "IT",
+        "id": 11,
+        "name": "python",
+        "percent": 85
+    },
+    {
+        "category": "IT",
+        "id": 19,
+        "name": "ReactJS",
+        "percent": 50
+    },
+    {
+        "category": "IT",
+        "id": 15,
+        "name": "JavaScript",
+        "percent": 50
+    },
+    {
+        "category": "IT",
+        "id": 10,
+        "name": "html",
+        "percent": 70
+    },
+    {
+        "category": "IT",
+        "id": 14,
+        "name": "css",
+        "percent": 60
+    },
+    {
+        "category": "IT",
+        "id": 4,
+        "name": "Photoshop",
+        "percent": 80
     },
     {
         "category": "L",
@@ -37,18 +67,6 @@
     },
     {
         "category": "IT",
-        "id": 10,
-        "name": "html",
-        "percent": 70
-    },
-    {
-        "category": "IT",
-        "id": 11,
-        "name": "python",
-        "percent": 85
-    },
-    {
-        "category": "IT",
         "id": 12,
         "name": "wordpress",
         "percent": 50
@@ -58,18 +76,6 @@
         "id": 13,
         "name": "Docker",
         "percent": 40
-    },
-    {
-        "category": "IT",
-        "id": 14,
-        "name": "css",
-        "percent": 30
-    },
-    {
-        "category": "IT",
-        "id": 15,
-        "name": "JavaScript",
-        "percent": 50
     },
     {
         "category": "IT",
@@ -88,11 +94,5 @@
         "id": 18,
         "name": "OWL",
         "percent": 40
-    },
-    {
-        "category": "IT",
-        "id": 19,
-        "name": "ReactJS",
-        "percent": 50
     }
 ]

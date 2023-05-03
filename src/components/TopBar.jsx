@@ -16,10 +16,8 @@ function TopBar() {
       
       if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
         setshouldBeVisible(false);
-        console.log(shouldBeVisible, window.pageYOffset)
       } else { // if scroll up show the navbar
         setshouldBeVisible(true);
-        console.log(shouldBeVisible, window.pageYOffset)
       }
 
       // remember current page location to use in the next move

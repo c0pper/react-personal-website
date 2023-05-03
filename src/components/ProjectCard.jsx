@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import CardLink from './CardLink';
 
 const ProjectCard = ({project}) => {
   const [imageSrc, setImageSrc] = useState('');
@@ -15,6 +16,7 @@ const ProjectCard = ({project}) => {
             <div className="text-xl font-medium text-primary">{project.name.toUpperCase()}</div>
             <div className="text-ll font-medium text-secondary indent-border-left mt-2 mb-4">{project.date.split("-")[0]}</div>
           </div>
+          <CardLink href={project.url} title="Source" />
           <div className="mt-2 mb-4  text-primary">
               {project.desc}
           </div>

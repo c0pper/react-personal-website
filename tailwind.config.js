@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
         terminal: ["VT323", "sans-serif"],
+        unicaone: ["Unica One", "sans-serif"],
       },
     },
     screens: {

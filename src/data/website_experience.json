@@ -76,20 +76,20 @@
         "place":"Naples (IT)"
     },
     {
-        "end_time": "2023-03-22",
+        "end_time": "Present",
         "exp_type": "W",
         "id": 5,
         "name": "KNOWLEDGE ENGINEER",
         "points": [
-  "Identification of logical patterns underlying the language",
-  "Designing, developing, and testing NLP solutions to meet customer needs and requirements",
-  "Ensuring quality of NLP solutions and contributing to their improvement",
-  "Analysis of customer needs and transforming them into technical requirements",
-  "Fine-tuning NLP modules to balance precision and recall according to customer requirements",
-  "Acting as NLP partner to customers using expert.ai technology",
-  "Contribution to closeout phase, collecting lessons learned, and sharing best practices with project team and community members",
-  "App mockup design and creation"
-],
+            "Identification of logical patterns underlying the language",
+            "Designing, developing, and testing NLP solutions to meet customer needs and requirements",
+            "Ensuring quality of NLP solutions and contributing to their improvement",
+            "Analysis of customer needs and transforming them into technical requirements",
+            "Fine-tuning NLP modules to balance precision and recall according to customer requirements",
+            "Acting as NLP partner to customers using expert.ai technology",
+            "Contribution to closeout phase, collecting lessons learned, and sharing best practices with project team and community members",
+            "App mockup design and creation"
+            ],
         "start_time": "2021-05-10",
         "institution": {
             "id": 2,

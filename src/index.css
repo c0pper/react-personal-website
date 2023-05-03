@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -18,7 +19,7 @@ h1 {
 }
 
 .section {
-    @apply sm:px-20 px-10 py-10  md:min-h-screen w-full;
+    @apply sm:px-20 px-10 py-10 w-full;
 }
 
 .section-content {
@@ -27,6 +28,10 @@ h1 {
 
 .btn {
     @apply px-3 py-1 no-underline bg-primary text-black  hover:bg-black hover:text-white hover:cursor-pointer transition duration-200;
+}
+
+.content-btn {
+    @apply border-primary hover:border-black border-2;
 }
 
 .light-section-bg {
