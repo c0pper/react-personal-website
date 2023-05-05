@@ -56,14 +56,15 @@ function TopBar() {
             <div>
               <div className="flex flex-col items-end justify-start text-right p-6 bg-primary text-black absolute -top-4 -right-4 mx-4 my-2 w-1/2 h-screen">
                 <div className="mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
                 </div>
                 <ul className="w-full border-t-[1px] border-secondary">
                   {navLinks.map((link, index) => (
                     <li
                       key={link.id}
-                      className={`font-normal ${index === 0 ? "mt-4" : undefined}`}
+                      className={`font-normal ${index === 0 ? "mt-4" : undefined} menu-border-right`}
                     >
                       <a href={`#${link.id}`}>
                         {link.title}
@@ -74,8 +75,9 @@ function TopBar() {
               </div>
             </div>
             // SHOW BURGER ICON
-            : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 cursor-pointer">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
           }
           </div>
         </div>

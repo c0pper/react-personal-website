@@ -10,7 +10,7 @@ function About({sectionColor}) {
 
 
   return (
-    <section className={`section ${sectionColor} md:min-h-screen flex`} id='about'>
+    <section className={`section ${sectionColor} md:min-h-screen flex relative`} id='about'>
       <div className="flex flex-col md:items-center md:flex-row-reverse justify-between">
         <div  id="portrait">
           <img src={imageSrc} className="object-fit" />
@@ -26,9 +26,9 @@ function About({sectionColor}) {
               color: "transparent"
             }}
           >
-            <div className="mr-2 bg-gradient-to-r from-fuchsia-500 to-cyan-500" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}>I'm a</div>
+            <div className="mr-2 accent-gradient" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}>I'm a</div>
             <div
-              className="txt-rotate bg-gradient-to-r from-cyan-500 to-fuchsia-500 mr-2" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}
+              className="txt-rotate accent-gradient mr-2" style={{backgroundClip: "text", WebkitBackgroundClip: "text",}}
               data-period="2000"
               data-rotate='[ "Developer.", "Teacher.", "Translator." ]'
             />
@@ -38,6 +38,11 @@ function About({sectionColor}) {
             {bio.text.map((paragraph) => (
               <p className="mb-4">{paragraph}</p>
             ))}
+          </div>
+          <div className="text-white absolute bottom-5 left-1/2 hidden md:block animate-bounce">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
           </div>
         </div>
       </div>

@@ -6,8 +6,37 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+
 html {
     @apply bg-black font-ubuntu;
+    
+    /* scrollbar */
+    /* Firefox */
+    overflow: scroll;
+    scrollbar-color: white black;
+    scrollbar-width: thin;
+}
+
+    /* chrome */
+    /* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFF; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; 
 }
 
 p {
@@ -20,6 +49,10 @@ h1 {
 
 .section {
     @apply sm:px-20 px-10 py-10 w-full;
+}
+
+.accent-gradient {
+    @apply bg-gradient-to-r from-fuchsia-500 to-cyan-500;
 }
 
 .section-content {
@@ -54,6 +87,11 @@ h1 {
 .indent-border-left {
     @apply border-l-[4px] border-primary pl-4;
 }
+
+.menu-border-right {
+    @apply border-r-[4px] border-black pr-4;
+}
+
 
 .blinking-cursor {
     @apply border-b-2 border-white -ml-2 -mt-2;

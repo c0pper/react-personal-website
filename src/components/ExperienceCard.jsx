@@ -14,9 +14,9 @@ const ExperienceCard = ({experience}) => {
           </div>
         </div>
       </div>
-      <ul className="mb-4">
+      <ul className="my-4">
         {experience.points.map((point, index) => (
-          <div className="flex items-center mt-2 ml-6">
+          <div className="flex items-center mt-2">
             <div className="text-white mr-4">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
