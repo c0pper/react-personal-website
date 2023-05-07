@@ -38,14 +38,14 @@ function Resume({sectionColor}) {
           <div className="mr-0 md:mr-20 xl:mr-36">
             {showMore ? expW.map((experience, index) => {
                 return(
-                  <div className="mb-10">
+                  <div key={index} className="mb-10">
                     <ExperienceCard experience={experience} />
                   </div>
                 )
               }
             ) : expW_sliced.map((experience, index) => {
                 return(
-                  <div className="mb-10">
+                  <div key={index} className="mb-10">
                     <ExperienceCard experience={experience} />
                   </div>
                 )
@@ -56,18 +56,18 @@ function Resume({sectionColor}) {
 
           {/* EDUCATION */}
           <div>
-            {showMore ? expE.map((experience) => {
+            {showMore ? expE.map((experience, index) => {
               if (experience.exp_type === "E") {
                 return(
-                  <div className="mb-10">
+                  <div key={index} className="mb-10">
                     <ExperienceCard experience={experience} />
                   </div>
                 )
               }
-            }) : expE_sliced.map((experience) => {
+            }) : expE_sliced.map((experience, index) => {
               if (experience.exp_type === "E") {
                 return(
-                  <div className="mb-10">
+                  <div key={index} className="mb-10">
                     <ExperienceCard experience={experience} />
                   </div>
                 )

@@ -35,8 +35,8 @@ function About({sectionColor}) {
             <div className="blinking-cursor">0</div>
           </div>
           <div className="indent-border-left">
-            {bio.text.map((paragraph) => (
-              <p className="mb-4">{paragraph}</p>
+            {bio.text.map((paragraph, index) => (
+              <p key={index} className="mb-4">{paragraph}</p>
             ))}
           </div>
           <div className="text-white absolute bottom-5 left-1/2 hidden md:block animate-bounce">

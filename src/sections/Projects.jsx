@@ -14,11 +14,11 @@ function Projects({sectionColor}) {
       <Header title="Projects" />
       <SectionContent>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-36">
-            {showMore ? projects.map((project) => (
-              <ProjectCard project={project} />
+            {showMore ? projects.map((project, index) => (
+              <ProjectCard key={index} project={project} />
             )) :
-            projects_sliced.map((project) => (
-              <ProjectCard project={project} />
+            projects_sliced.map((project, index) => (
+              <ProjectCard key={index} project={project} />
             ))
           }
         </div>
