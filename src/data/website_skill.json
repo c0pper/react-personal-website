@@ -27,7 +27,7 @@
         "category": "IT",
         "id": 10,
         "name": "html",
-        "percent": 70
+        "percent": 80
     },
     {
         "category": "IT",
@@ -94,5 +94,65 @@
         "id": 18,
         "name": "OWL",
         "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 19,
+        "name": "Bootstrap",
+        "percent": 60
+    },
+    {
+        "category": "IT",
+        "id": 20,
+        "name": "OWL",
+        "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 22,
+        "name": "Django",
+        "percent": 40
+    },
+    {
+        "category": "IT",
+        "id": 23,
+        "name": "Flask",
+        "percent": 50
+    },
+    {
+        "category": "IT",
+        "id": 24,
+        "name": "NLP",
+        "percent": 80
+    },
+    {
+        "category": "IT",
+        "id": 25,
+        "name": "Swift",
+        "percent": 25
+    },
+    {
+        "category": "IT",
+        "id": 26,
+        "name": "scikit-learn",
+        "percent": 70
+    },
+    {
+        "category": "IT",
+        "id": 27,
+        "name": "Tensoflow",
+        "percent": 50
+    },
+    {
+        "category": "IT",
+        "id": 28,
+        "name": "Pytorch",
+        "percent": 20
+    },
+    {
+        "category": "IT",
+        "id": 29,
+        "name": "Tailwind",
+        "percent": 60
     }
 ]
