@@ -103,12 +103,6 @@
     },
     {
         "category": "IT",
-        "id": 20,
-        "name": "OWL",
-        "percent": 40
-    },
-    {
-        "category": "IT",
         "id": 22,
         "name": "Django",
         "percent": 40
