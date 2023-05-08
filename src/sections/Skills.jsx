@@ -25,7 +25,7 @@ function Skills({sectionColor}) {
     fontSizes: wordcloudFontSizes,
     fontStyle: "normal",
     fontWeight: "normal",
-    padding: 1,
+    padding: 3,
     rotations: 2,
     rotationAngles: [0, 90],
     scale: "sqrt",
