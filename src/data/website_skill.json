@@ -14,13 +14,13 @@
     {
         "category": "IT",
         "id": 19,
-        "name": "ReactJS",
+        "name": "reactjs",
         "percent": 50
     },
     {
         "category": "IT",
         "id": 15,
-        "name": "JavaScript",
+        "name": "javaScript",
         "percent": 50
     },
     {
@@ -38,13 +38,13 @@
     {
         "category": "IT",
         "id": 4,
-        "name": "Photoshop",
+        "name": "photoshop",
         "percent": 80
     },
     {
         "category": "L",
         "id": 6,
-        "name": "Russian",
+        "name": "russian",
         "percent": 50
     },
     {
@@ -74,55 +74,55 @@
     {
         "category": "IT",
         "id": 13,
-        "name": "Docker",
+        "name": "docker",
         "percent": 40
     },
     {
         "category": "IT",
         "id": 16,
-        "name": "Git",
+        "name": "git",
         "percent": 40
     },
     {
         "category": "IT",
         "id": 17,
-        "name": "Databases",
+        "name": "databases",
         "percent": 20
     },
     {
         "category": "IT",
         "id": 18,
-        "name": "OWL",
+        "name": "owl",
         "percent": 40
     },
     {
         "category": "IT",
         "id": 19,
-        "name": "Bootstrap",
+        "name": "bootstrap",
         "percent": 60
     },
     {
         "category": "IT",
         "id": 22,
-        "name": "Django",
+        "name": "django",
         "percent": 40
     },
     {
         "category": "IT",
         "id": 23,
-        "name": "Flask",
+        "name": "flask",
         "percent": 50
     },
     {
         "category": "IT",
         "id": 24,
-        "name": "NLP",
+        "name": "nlp",
         "percent": 80
     },
     {
         "category": "IT",
         "id": 25,
-        "name": "Swift",
+        "name": "swift",
         "percent": 25
     },
     {
@@ -134,19 +134,19 @@
     {
         "category": "IT",
         "id": 27,
-        "name": "Tensoflow",
+        "name": "tensorflow",
         "percent": 50
     },
     {
         "category": "IT",
         "id": 28,
-        "name": "Pytorch",
+        "name": "pytorch",
         "percent": 20
     },
     {
         "category": "IT",
         "id": 29,
-        "name": "Tailwind",
+        "name": "tailwind",
         "percent": 60
     }
 ]
