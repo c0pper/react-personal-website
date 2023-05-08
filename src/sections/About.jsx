@@ -11,7 +11,7 @@ function About({sectionColor}) {
 
   return (
     <section className={`section ${sectionColor} md:min-h-screen flex relative`} id='about'>
-      <div className="flex flex-col md:items-center md:flex-row-reverse justify-between">
+      <div className="flex flex-col items-center md:flex-row-reverse justify-between">
         <div  id="portrait">
           <img src={imageSrc} className="object-fit" />
         </div>
